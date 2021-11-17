@@ -1,0 +1,15 @@
+.news__item{
+    max-width: 342px;
+}
+
+.news__text{
+    text-decoration: underline;
+    font-family: "Ubuntu", "Arial", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background: linear-gradient(358.77deg, rgba(0, 0, 0, 0.7) 0.88%, rgba(0, 0, 0, 0.567) 0.89%, rgba(43, 1, 1, 0.522808) 56.45%, rgba(240, 12, 12, 0) 98.78%);
+}

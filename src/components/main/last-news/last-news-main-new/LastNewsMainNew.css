@@ -1,0 +1,25 @@
+.main-news__image{
+    width: 100%;
+}
+
+.main-news__wrapper{
+    position: relative;
+    margin-top: 5px;
+}
+
+.main-news__text{
+    position: absolute;
+    font-family: "Ubuntu", "Arial", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+
+
+    max-width: 100%;
+    bottom: 3px;
+    padding: 20px 30px;
+    max-height: 130px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.75);
+}

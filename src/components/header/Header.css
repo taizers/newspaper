@@ -1,0 +1,54 @@
+.header{
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+}
+
+.nav__list:first-child a{
+    margin-right: 30px;
+    font-family: "Ubuntu", "Arial", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.header__logo {
+    /*font-family: "YesevaOne", "Arial", sans-serif;*/
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 58px;
+    font-style: normal;
+    padding: 20px 0px;
+    padding-right: 80px; 
+    border-right-color: #fff;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+
+.header__sign-in{
+    font-family: "Ubuntu", "Arial", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    position: relative;
+
+}
+.header__sign-in::after{
+    content: url("../../img/search.png");
+    position: absolute;
+    left: -50px;
+    top: 4px;
+}

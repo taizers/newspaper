@@ -1,0 +1,31 @@
+.list-of-news__item:first-child{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: rgba(253, 4, 4, 1);
+}
+
+.list-of-news__item{
+    display: flex;
+    position: relative;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(253, 4, 4, 1);
+    padding: 30px 0px;
+}
+
+.list-of-news__image{
+    position: relative;
+}
+
+.list-of-news__text{
+    max-width: 420px;
+    padding-left: 30px;
+    overflow: hidden;
+    /* font-family: Gemunu Libre ExtraBold; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    max-height: 130px;
+    text-transform: uppercase;
+}

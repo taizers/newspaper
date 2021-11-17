@@ -1,0 +1,13 @@
+.news{
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.news__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 40px;
+    column-gap: 90px;
+    color: #fff;
+}

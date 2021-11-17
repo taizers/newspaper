@@ -1,0 +1,17 @@
+.banner{
+    margin: 10px 0px;
+    text-align: center;
+	overflow: hidden;  
+    display: flex;
+
+}
+
+.banner__link{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1) ;
+    max-height: 550px;
+}
+
+.banner__image{
+    width: 33.33%;
+}   
